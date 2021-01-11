@@ -3,3 +3,6 @@ class Sample
     "hello"
   end
 end
+
+obj = Sample.new.hello_msg
+puts obj
