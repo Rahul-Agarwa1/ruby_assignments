@@ -20,6 +20,3 @@ class ArmstrongNumber
   end
 end
 
-[0,10,12,14,15].each do |num|
-  puts ArmstrongNumber.new(num).is_armstrong
-end
